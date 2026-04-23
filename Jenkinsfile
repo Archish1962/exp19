@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage('Checkout code'){
             steps{
-                git branch:'main', url:''
+                git branch:'main', url:'https://github.com/Archish1962/exp19.git'
             }
         }
 
