@@ -14,7 +14,7 @@ pipeline{
             }
         }
 
-        stage('Checkout'){
+        stage('run'){
             steps{
                 bat 'docker run simple-interest'
             }
